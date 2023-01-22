@@ -1,0 +1,64 @@
+header{
+    background-color: $blanco;
+    width: 100vw;
+    height: 100px;
+}
+
+.navbar-nav {
+    font-weight: bold !important;
+    .nav-link:hover{
+        color: $verde !important;
+        font-weight: bold !important;
+        border-bottom: 1px solid $verde !important;
+    }
+}
+.active{
+    color: $verde !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid $verde !important;
+}
+.Subheader{
+    height: 80px;
+    border-top: 1px solid $gris;
+    background: $blanco;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(237,254,237,1) 49%, rgba(74,152,72,1) 100%);
+}
+.Subheader__titulo{
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15%;
+    color: $azul;
+}
+.Subheader__titulo__faq{
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15%;
+    color: $azul;
+}
+.logo{
+    height: 4rem;
+    width: auto;
+    margin-top: 2px;
+    float: left;
+    margin-left: 0px;
+}
+.logo__texto{
+    display: inline-block;
+    margin-top: 1.3rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-left: 4px;
+    color: $azul;
+    text-align: center;
+}
+.logo__tc{
+    border-top: 1px solid $verde_claro;
+    font-size: 1.1rem;
+    color: $verde;
+}

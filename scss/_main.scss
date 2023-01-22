@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+*{
+    *:before{
+        *:after{
+            box-sizing: inherit;
+        }
+    }
+}
+body{
+    background-color: $gris_claro;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+}
+
+.azul{
+    color: $azul;
+}
+.negras{
+    font-weight: 700;
+}
+
+.verde{
+    color: $verde;
+}
+.sombratxt{
+    text-shadow: 1px 2px 3px rgba(255,255,255,0.77);
+}
+.recuadro__amarillo{
+    background-color: $verde_claro;
+}
+.espacio{
+    margin-top: 50px;
+}
+.titulo{
+    color: $azul;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+#Invitacion{
+    background-color: $blanco;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Invitacion__texto{
+    padding-top: 15px;
+    font-weight: 600;
+    color: $verde;
+    font-size: 1.4rem;
+    text-align: end;
+}
+.Invitacion__gratis{
+    background-color: $verde_claro;
+}
+.img-descripcion{
+    width: 50%;
+
+}

@@ -1,0 +1,56 @@
+@include media-breakpoint-down(md) {
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                .carousel-caption{
+                    margin-top: 1rem;
+                    text-align: start;
+                    h2{
+                        font-size: 1rem;
+                    }
+                    .btn{
+                        font-size: 0.7rem !important;
+                        margin-bottom: 0.3rem;
+                    }
+                }
+            }
+        }
+    }
+    .mb-5{
+        margin-bottom: 0.5rem !important;
+    }
+    .espacio{
+        .Invitacion__texto{
+            font-size: 1rem;
+        }
+        .btn{
+            font-size: 1rem !important;
+        }
+    }
+    
+    .Equipo__imagen__persona{
+        width: 150px;
+    }
+    .Subheader__titulo__faq{
+        font-size: 1.1rem !important;
+    }
+    
+}
+@include media-breakpoint-up(lg) { 
+
+    .logo{
+        margin-left: 0px;
+    }
+}
+@include media-breakpoint-only(lg) {
+    .navbar-nav {
+        font-weight: normal !important;
+        .nav-link:hover{
+            font-weight: normal !important;
+            font-size: .7rem;
+        }
+    }
+    .active{
+        font-weight: normal !important;
+    }
+}
